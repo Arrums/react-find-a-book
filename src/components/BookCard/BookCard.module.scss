@@ -1,0 +1,58 @@
+@import "./../../sassStyles/variables";
+
+.BookCard {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+		rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+
+	> img {
+		margin: 3%;
+		width: 200px;
+		height: auto;
+	}
+
+	> h4 {
+		padding: 15px 0;
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+	> p {
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+
+	&:hover {
+		transform: scale(0.95);
+	}
+
+	@media (min-width: ($phone + 1)) and (max-width: $pc) {
+		padding: 18px;
+
+		> img {
+			width: 150px;
+		}
+
+		> p {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: $phone) {
+		padding: 15px;
+
+		> img {
+			margin: 10px;
+			width: 100px;
+			height: auto;
+		}
+
+		> p {
+			font-size: 12px;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+@import "./../../sassStyles/variables";
+
+.Footer {
+	background-color: $black;
+	margin-top: 7%;
+	padding: 20px;
+
+	> p {
+		color: $white;
+		text-align: center;
+		font-family: "Libre Caslon Display", serif;
+		font-weight: 400;
+		font-size: 18px;
+	}
+}
