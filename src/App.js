@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import BookList from "./containers/BookList";
 import Home from "./containers/Home/Home";
+import styles from "./App.module.scss";
 
 const App = () => {
 	//setting state for the books
@@ -28,10 +29,10 @@ const App = () => {
 	}, [search]);
 
 	return (
-		<>
+		<div className={styles.App}>
 			<Home onSubmit={handleSubmit} setSearch={setSearch} />
 			<BookList books={booksData} />
-		</>
+		</div>
 	);
 };
 
