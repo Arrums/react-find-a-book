@@ -1,15 +1,19 @@
 # React Project: Google Books User Interface
 
-Create a website in React for
+Create a website in React for finding a book via Google Books API.
 
-![Book Search]()
+![Landing-Page](https://user-images.githubusercontent.com/100544967/162741898-3cd50cde-a004-43ad-8366-899e6104d787.PNG)
+
+![Book Search](https://user-images.githubusercontent.com/100544967/162741877-fcf5fa56-2867-42b1-aaf9-9d369203e37c.PNG)
+
+![Modal-Box](https://user-images.githubusercontent.com/100544967/162741908-8e65f661-7b1f-44f2-bbbb-a1bd5e15488f.PNG)
 
 <a href="https://arrums.github.io/react-find-a-book/" target="_blank">Live
 Project</a>
 
 ## Goals
 
-Implementing React and Javascript topics that I have learned such as array,
+Implementing React and Javascript topics that I have learned such as API, array,
 async/await, effects, map, object, promise, state, and props.
 
 ## Requirements
@@ -70,13 +74,15 @@ Bonus (optional, but highly recommended):
 - [x] CSS/SCSS
 - [x] Javascript
 - [x] React
+- [x] API (Google Books)
+- [x] Git and Github
 
 ### Issue to be addressed
 
-- [ ] Handle 2 or more authors of the same book
+- [x] Handle 2 or more authors of the same book
 - [ ] Handle error query
 
 ### Features to implemented
 
-- [ ] Modal box for book information
+- [x] Modal box for book information
 - [ ] Search options for published year and ISBN

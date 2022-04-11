@@ -1,0 +1,74 @@
+@import "./../../sassStyles/variables";
+
+.Overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2;
+	overflow: auto;
+
+	&__Inner {
+		background: $white;
+		top: 5%;
+		max-width: 90vw;
+		max-height: 70vh;
+		padding: 2%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		overflow: auto;
+		margin: auto;
+		text-align: center;
+
+		&__Info {
+			margin-top: 2%;
+		}
+
+		&__Img {
+			width: 150px;
+			height: auto;
+			margin: 10px;
+		}
+
+		&__Btn {
+			border: none;
+			outline: none;
+			width: 100px;
+			background-color: $black;
+			color: $white;
+			margin: 20px 0;
+			padding: 10px;
+		}
+	}
+
+	@media (min-width: ($phone + 1)) and (max-width: $pc) {
+		&__Inner {
+			max-width: 500px;
+		}
+	}
+
+	@media (max-width: $phone) {
+		&__Inner {
+			max-width: 90vw;
+			max-height: 70vh;
+			font-size: 12px;
+		}
+	}
+}
+
+.Close {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-size: 25px;
+	padding: 5px;
+	margin-left: auto;
+	z-index: 3;
+}
