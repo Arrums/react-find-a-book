@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-find-a-book/static/css/main.35013113.css",
+    "main.js": "/react-find-a-book/static/js/main.7d209669.js",
+    "index.html": "/react-find-a-book/index.html",
+    "main.35013113.css.map": "/react-find-a-book/static/css/main.35013113.css.map",
+    "main.7d209669.js.map": "/react-find-a-book/static/js/main.7d209669.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35013113.css",
+    "static/js/main.7d209669.js"
+  ]
+}
