@@ -11,7 +11,6 @@
 	left: 0;
 	background: rgba(0, 0, 0, 0.6);
 	z-index: 2;
-	overflow: auto;
 
 	&__Inner {
 		background: $white;
@@ -20,15 +19,16 @@
 		max-height: 70vh;
 		padding: 2%;
 		display: flex;
-		flex-direction: column;
+		flex-flow: column;
 		justify-content: center;
 		align-items: center;
-		overflow: auto;
-		margin: auto;
+		overflow-y: scroll;
 		text-align: center;
 
 		&__Info {
-			margin-top: 2%;
+			margin-top: 5%;
+			padding-bottom: 2%;
+			font-weight: bold;
 		}
 
 		&__Img {
@@ -40,7 +40,7 @@
 		&__Btn {
 			border: none;
 			outline: none;
-			width: 100px;
+			width: 120px;
 			background-color: $black;
 			color: $white;
 			margin: 20px 0;
@@ -67,8 +67,7 @@
 	outline: none;
 	border: none;
 	background-color: transparent;
-	font-size: 25px;
-	padding: 5px;
+	font-size: 35px;
 	margin-left: auto;
 	z-index: 3;
 }

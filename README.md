@@ -6,7 +6,7 @@ Create a website in React for finding a book via Google Books API.
 
 ![Book Search](https://user-images.githubusercontent.com/100544967/162741877-fcf5fa56-2867-42b1-aaf9-9d369203e37c.PNG)
 
-![Modal-Box](https://user-images.githubusercontent.com/100544967/162741908-8e65f661-7b1f-44f2-bbbb-a1bd5e15488f.PNG)
+![Modal-Box](https://user-images.githubusercontent.com/100544967/162867555-c3825a18-9532-480a-a5aa-13bda79f6005.PNG)
 
 <a href="https://arrums.github.io/react-find-a-book/" target="_blank">Live
 Project</a>
@@ -15,6 +15,11 @@ Project</a>
 
 Implementing React and Javascript topics that I have learned such as API, array,
 async/await, effects, map, object, promise, state, and props.
+
+## Inspiration
+
+![inspiration](https://user-images.githubusercontent.com/100544967/162867475-24ac6b4f-c8ee-43d5-a49e-6d39bdebd13a.PNG)
+[Brewwlab](https://brewwlab.com/)
 
 ## Requirements
 
@@ -80,9 +85,10 @@ Bonus (optional, but highly recommended):
 ### Issue to be addressed
 
 - [x] Handle 2 or more authors of the same book
-- [ ] Handle error query
+- [x] Modal box for book information
+- [x] Modal box content doesn't wrap properly
 
 ### Features to implemented
 
-- [x] Modal box for book information
 - [ ] Search options for published year and ISBN
+- [ ] Pagination for more search results
