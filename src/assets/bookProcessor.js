@@ -16,9 +16,14 @@ export const bookProcessor = (book) => {
 		? book.volumeInfo.publisher
 		: "Unknown Publisher";
 
-	const desc = book.volumeInfo.description
+	let desc = book.volumeInfo.description
 		? book.volumeInfo.description
 		: "This book doesn't have any description";
+
+	if (desc !== undefined && desc.length > 500) {
+		const endingDot = desc.indexOf(".", 500);
+		desc = desc.slice(0, endingDot) + ".";
+	}
 
 	const pre = book.volumeInfo.previewLink;
 
